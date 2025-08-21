@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #EFF0F3;
+}
+header{
+    width: 1440px;
+    margin: 0 auto;
+    height: 86px;
+    flex-shrink: 0;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    position: fixed;
+    top: 0;
+}
+header nav{
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header li{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.search__icon img {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.nav__active_link img{
+    width: 24px;
+    height: 24px;
+}
+.nav__active_link{
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*----------------------------------------------*/
+.hero{
+    width: 1250px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.hero p{
+    width: 667px;
+    color: #9A9494;
+    font-size: 20px;
+    font-weight: 400;
+    border-left: 3px solid #2B2C34;
+    height: 56px;
+    padding-left: 12px;
+    margin: 30px 0;
+}
+
+.form__subscribe{
+    display: flex;
+    gap: 20px;
+}
+.form__subscribe input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:#FFFFFE;
+    color: #C0C0C0;
+    font-size: 20px;
+    border: none;
+}
+.form__subscribe button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.hero img{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------------------------------------------------*/
+.browse_categories{
+    width: 1250px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+.categories_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.categories_title h3{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.categories_title h2{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.categories_title span{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
+.categories__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories__cards .card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #FFFFFE;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 65px 0 0 30px;
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.categories__cards .card .card__image {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.categories__cards .card p{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.categories__cards .card:hover{
+    border-radius: 8px;
+    /* For Colorize Background */
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
+    border-radius: 8px;
+    background: #6246EA;
+}
+.categories__cards .card:hover p{
+    color: #FFFFFE;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
