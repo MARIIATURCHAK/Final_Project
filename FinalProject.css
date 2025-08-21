@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-.wrapper{
+.first_part{
     width: 1440px;
     margin: 0 auto;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -134,20 +134,20 @@ header li{
     align-items: center;
     margin-bottom: 50px;
 }
-.categories_title h3{
+.categories_title h2{
     color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.categories_title h2{
+.categories_title h3, featured_articles-header h3{
     color: #2B2C34;
     text-align: right;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.categories_title span{
+.categories_title h3 span, .featured_articles-header h3 span{
     width: 6px;
     height: 14px;
     flex-shrink: 0;
@@ -172,6 +172,7 @@ header li{
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
+    transition: 2s;
 }
 
 .categories__cards .card .card__image {
@@ -192,15 +193,55 @@ header li{
     text-transform: capitalize;
 }
 .categories__cards .card:hover{
-    border-radius: 8px;
     /* For Colorize Background */
     box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
     border-radius: 8px;
     background: #6246EA;
+    transition: 3s;
 }
 .categories__cards .card:hover p{
     color: #FFFFFE;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
+}
+
+
+/*---------------------------------------------------------------*/
+.main{
+    width: 1440px;
+    margin: 0 auto;
+    background: #FFFFFE;
+
+}
+.featured_articles{
+    width: 1250px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.featured_articles .featured_articles-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.featured_articles-header h2{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.featured-articles__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-card__author{
+    display: flex;
+    flex-wrap: wrap;
 }
