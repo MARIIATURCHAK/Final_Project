@@ -208,10 +208,14 @@ header li{
 
 
 /*---------------------------------------------------------------*/
-.main{
+main{
     width: 1440px;
     margin: 0 auto;
     background: #FFFFFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -248,7 +252,18 @@ header li{
     height: 385px;
     display: flex;
     flex-direction: column;
-
+    border-radius: 12px;
+    background: #FFFFFE;
+}
+.article_cards:hover{
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.article_card{
+    margin: 0 auto;
+}
+.article_card img{
+    width: 260px;
+    height: 198px;
 }
 .article_card h3{
     width: 260px;
@@ -264,7 +279,9 @@ header li{
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
+    padding-left: 20px;
     margin-top: auto;
+
 }
 .article-card__author img{
     width: 57px;
@@ -283,8 +300,82 @@ header li{
     font-weight: 600;
     line-height: normal;
 }
+.article-card__meta{
+    width: 184px;
+    display: flex;
+    gap: 8px;
+}
 .article-card__date {
     color: #2B2C34;
     font-size: 14px;
     text-transform: capitalize;
+    letter-spacing: 1px;
 }
+.main_button-more{
+    border-radius: 8px;
+    background: #6246EA;
+    padding: 20px 23px 19px 23px;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+}
+
+/*/-----------------------------------------------------------------------------------------*/
+.newsletter{
+    width: 1440px;
+    background: #EFF0F3;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-with-bg{
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 58px 0 30px 0;
+    }
+.newsletter h2{
+    color: #2B2C34;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.newsletter p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
+}
+.newsletter__form input{
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    width: 444px;
+    height: 67px;
+}
+.newsletter__form .newsletter__button{
+    width: 145px;
+    height: 67px;
+    border-radius: 8px;
+    background: #6246EA;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 58px;
+}
+
