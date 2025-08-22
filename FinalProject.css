@@ -142,14 +142,14 @@ header li{
     font-weight: 700;
     text-transform: capitalize;
 }
-.categories_title h3, .featured_articles-header h3{
+.categories_title h3, .articles-header h3{
     color: #2B2C34;
     text-align: right;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.categories_title h3 span, .featured_articles-header h3 span{
+.categories_title h3 span, .articles-header h3 span{
     width: 6px;
     height: 14px;
     flex-shrink: 0;
@@ -188,7 +188,7 @@ header li{
     align-items: center;
     margin-bottom: 30px;
 }
-.categories__cards .card p{
+.categories__cards .card a{
     color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
@@ -201,7 +201,7 @@ header li{
     background: #6246EA;
     transition: 3s;
 }
-.categories__cards .card:hover p{
+.categories__cards .card:hover a{
     color: #FFFFFE;
     font-size: 24px;
     font-weight: 700;
@@ -217,7 +217,7 @@ main{
     align-items: center;
     flex-direction: column;
 }
-.featured_articles{
+.articles{
     width: 1250px;
     margin: 0 auto;
     padding-top: 80px;
@@ -226,20 +226,20 @@ main{
     align-items: center;
     flex-direction: column;
 }
-.featured_articles-header{
+.articles-header{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
-.featured_articles-header h2{
+.articles-header h2{
     color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.featured-articles__list {
+.articles__list {
     width: 100%;
     height: 425px;
     display: flex;
@@ -339,7 +339,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+}
 .newsletter h2{
     color: #2B2C34;
     font-size: 36px;
