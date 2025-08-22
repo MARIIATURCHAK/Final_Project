@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-.first_part{
+.hero_wrapper{
     width: 1440px;
     margin: 0 auto;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -10,6 +10,7 @@ header{
     margin: 0 auto;
     height: 86px;
     flex-shrink: 0;
+    background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     position: fixed;
     top: 0;
