@@ -454,6 +454,27 @@ footer{
     width: 30px;
     height: 30px;
 }
+.footer__media__links img:nth-child(2){
+    width: 22px;
+    height: 17.944px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #2B2C34;
+}
+.footer__media__links img:nth-child(3){
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #2B2C34;
+}
+.footer__media__links img:nth-child(4){
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #2B2C34;
+}
 .nav__container{
     display: flex;
     justify-content: space-between;
@@ -471,10 +492,12 @@ footer>p{
     color: #2B2C34;
     font-size: 14px;
 }
-.footer__social h2{
+.nav__container h3{
     color: #2B2C34;
     font-size: 20px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
     text-transform: uppercase;
 }
 .nav__container li{
